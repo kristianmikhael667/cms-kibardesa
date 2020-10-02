@@ -1,0 +1,21 @@
+CRITICAL - 2020-07-10 02:02:53 --> Request URI segment is our of range: 1
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 C:\xampp\htdocs\cms_ynci\app\Views\templates\admin\navbar.php(15): CodeIgniter\HTTP\URI->getSegment(1)
+#2 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ynci\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp\htdocs\cms_ynci\app\Views\dashboard\index.php(7): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Dashboard\Dashboard.php(12): view('dashboard/index')
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-07-10 02:03:48 --> Too few arguments to function curlPortHelper(), 2 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php on line 16 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(16): curlPortHelper('167.172.68.215:...', 'GET')
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

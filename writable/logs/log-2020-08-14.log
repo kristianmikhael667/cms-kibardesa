@@ -1,0 +1,10 @@
+CRITICAL - 2020-08-14 04:12:09 --> Trying to get property 'data' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\club\index.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 209, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('club/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(16): view('club/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

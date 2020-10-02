@@ -1,0 +1,86 @@
+CRITICAL - 2020-07-21 01:35:44 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ynci\app\Views\club\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('club/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(17): view('club/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-21 01:37:50 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-21 23:32:34 --> Undefined variable: product
+#0 C:\xampp\htdocs\cms_ynci\app\Views\club\index.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 207, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('club/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(16): view('club/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-21 23:32:56 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', NULL)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-21 23:33:58 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', NULL)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-21 23:35:23 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', NULL)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-21 23:36:05 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', NULL)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-21 23:37:03 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', 'a7be6b94-9290-4...')
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-21 23:42:10 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', 'a7be6b94-9290-4...')
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-21 23:42:38 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', 'a7be6b94-9290-4...')
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-21 23:42:43 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', 'f0ead635-ccad-4...')
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-21 23:44:48 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php on line 70 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Club\Club.php(70): curlPortHelper('https://api.yam...', 'GET', NULL)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

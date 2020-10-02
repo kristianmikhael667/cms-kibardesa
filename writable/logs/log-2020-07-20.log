@@ -1,0 +1,95 @@
+CRITICAL - 2020-07-20 04:34:17 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-20 04:41:37 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-20 04:43:38 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-20 04:43:38 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-20 04:43:38 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-20 04:45:34 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-20 04:47:37 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-20 06:39:31 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Base\BaseController.php(50): helper(Array)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-20 06:39:52 --> Undefined variable: totalProduct
+#0 C:\xampp\htdocs\cms_ynci\app\Views\dashboard\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Dashboard\Dashboard.php(16): view('dashboard/index')
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-20 06:40:38 --> Undefined variable: totalProduct
+#0 C:\xampp\htdocs\cms_ynci\app\Views\dashboard\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Dashboard\Dashboard.php(16): view('dashboard/index')
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-20 06:42:33 --> Undefined variable: totalProduct
+#0 C:\xampp\htdocs\cms_ynci\app\Views\dashboard\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Dashboard\Dashboard.php(16): view('dashboard/index')
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+<<<<<<< HEAD
+CRITICAL - 2020-07-20 23:36:19 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ynci\app\Views\user\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+=======
+CRITICAL - 2020-07-20 23:47:43 --> Class 'App\Controllers\Admin\Club\Services' not found
+#0 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->store()
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-20 23:49:54 --> Class 'App\Controllers\Admin\Club\Services' not found
+#0 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->store()
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-20 23:49:57 --> Class 'App\Controllers\Admin\Club\Services' not found
+#0 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->store()
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-20 23:54:50 --> Class 'App\Controllers\Admin\Club\Services' not found
+#0 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Club\Club->store()
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Club\Club))
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+>>>>>>> 3f195fc511a41389b0ab2b36b380107b243dffdf

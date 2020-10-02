@@ -1,0 +1,69 @@
+CRITICAL - 2020-08-25 07:00:46 --> Trying to get property 'data' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\user\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 07:01:23 --> Trying to get property 'data' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\user\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 07:01:28 --> Trying to get property 'data' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\user\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 07:50:23 --> Trying to get property 'data' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\user\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 07:56:44 --> Trying to get property 'data' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\user\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 08:02:49 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-25 08:04:25 --> Trying to get property 'report' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\transaction\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 08:04:33 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-25 08:04:33 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

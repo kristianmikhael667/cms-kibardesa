@@ -1,0 +1,130 @@
+CRITICAL - 2020-09-07 05:53:16 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(16): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 05:53:37 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(16): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 05:58:48 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:00:31 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:01:18 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:01:24 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:02:14 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:02:51 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:04:59 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:05:17 --> Trying to get property 'ID' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:05:31 --> Trying to get property 'title' of non-object
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 06:05:44 --> Undefined property: stdClass::$ID
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(18): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 21:32:32 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ynci\app\Views\news\index.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ynci\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\News\News.php(17): view('news/index', Array)
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

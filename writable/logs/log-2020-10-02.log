@@ -1,0 +1,22 @@
+CRITICAL - 2020-10-02 01:19:03 --> Cannot handle token prior to 2020-10-02T01:19:04-0500
+#0 C:\xampp\htdocs\cms_kibar\app\Controllers\Admin\Auth\Login.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'Z3WjahOHn6rlYcd...', Array)
+#1 C:\xampp\htdocs\cms_kibar\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\Login->store()
+#2 C:\xampp\htdocs\cms_kibar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\Login))
+#3 C:\xampp\htdocs\cms_kibar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_kibar\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-02 01:22:02 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-02 01:26:46 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-02 01:36:39 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-02 01:41:35 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-02 01:45:59 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

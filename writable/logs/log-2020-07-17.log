@@ -1,0 +1,302 @@
+CRITICAL - 2020-07-17 00:41:35 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 00:41:37 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 00:41:40 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 00:41:44 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 00:41:44 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 00:41:44 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 00:41:44 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 00:41:45 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 00:42:31 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(62): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 02:16:58 --> 7 : Failed to connect to 167.172.68.215 port 2020: Connection refused
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#3 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(66): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#4 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 02:25:12 --> Undefined variable: fields2
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-17 02:30:18 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(64): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 02:31:22 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(64): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 02:34:44 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(64): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 02:39:04 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#4 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(64): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#5 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(62): curlPortHelper('167.172.68.215:...', 'POST', Array, '')
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#8 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-17 02:57:14 --> syntax error, unexpected '['
+#0 C:\xampp\htdocs\cms_ynci\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cms_ynci\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-17 03:19:43 --> 22 : The requested URL returned error: 400 Bad Request
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://167.172....')
+#3 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(67): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://167.172....', Array)
+#4 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(64): curlPortHelper('167.172.68.215:...', 'POST', '{"productName":...', '')
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 03:59:07 --> Undefined variable: fields2
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-17 04:02:51 --> Undefined variable: fields2
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-17 04:09:35 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php on line 81 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(81): curlPortHelper('167.172.68.215:...', 'PUT', 'f120a09f-5bf2-4...')
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-17 04:10:03 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php on line 81 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(81): curlPortHelper('167.172.68.215:...', 'PUT', 'f120a09f-5bf2-4...')
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-17 04:10:14 --> Too few arguments to function curlPortHelper(), 3 passed in C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php on line 81 and exactly 4 expected
+#0 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(81): curlPortHelper('167.172.68.215:...', 'PUT', 'f120a09f-5bf2-4...')
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->edit()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-17 04:32:45 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://167.172....')
+#3 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(76): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://167.172....', Array)
+#4 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(73): curlPortHelper('167.172.68.215:...', 'PUT', Array, '')
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 04:37:02 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://167.172....')
+#3 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(76): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://167.172....', Array)
+#4 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(73): curlPortHelper('167.172.68.215:...', 'PUT', Array, '')
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 04:38:16 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://167.172....')
+#3 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(76): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://167.172....', Array)
+#4 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(73): curlPortHelper('167.172.68.215:...', 'PUT', Array, '')
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 04:44:06 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://167.172....')
+#3 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(76): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://167.172....', Array)
+#4 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(73): curlPortHelper('167.172.68.215:...', 'PUT', Array, '')
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 04:46:03 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://167.172....')
+#3 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(76): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://167.172....', Array)
+#4 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(73): curlPortHelper('167.172.68.215:...', 'PUT', Array, '')
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 04:50:26 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ynci\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://167.172....')
+#3 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(76): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://167.172....', Array)
+#4 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(73): curlPortHelper('167.172.68.215:...', 'PUT', Array, '')
+#5 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#6 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 05:12:21 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-17 05:14:29 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,22 @@
+CRITICAL - 2020-07-09 23:00:07 --> Undefined property: stdClass::$products
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\product_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Dashboard\Dashboard.php(17): totalProduct()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-09 23:11:24 --> Undefined property: stdClass::$products
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\product_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Dashboard\Dashboard.php(17): totalProduct()
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-09 23:14:20 --> Call to undefined function App\Controllers\Admin\Dashboard\totalTransaksi()
+#0 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#1 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,56 @@
+CRITICAL - 2020-07-16 22:56:21 --> Argument 2 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type string, array given, called in C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php on line 56
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('POST', Array, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(61): curlPortHelper('167.172.68.215:...', 'POST', Array, Array, '')
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-16 22:56:25 --> Argument 2 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type string, array given, called in C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php on line 56
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('POST', Array, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(61): curlPortHelper('167.172.68.215:...', 'POST', Array, Array, '')
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-16 22:56:25 --> Argument 2 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type string, array given, called in C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php on line 56
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('POST', Array, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(61): curlPortHelper('167.172.68.215:...', 'POST', Array, Array, '')
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-16 22:56:26 --> Argument 2 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type string, array given, called in C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php on line 56
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('POST', Array, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(61): curlPortHelper('167.172.68.215:...', 'POST', Array, Array, '')
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-16 22:56:26 --> Argument 2 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type string, array given, called in C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php on line 56
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('POST', Array, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(61): curlPortHelper('167.172.68.215:...', 'POST', Array, Array, '')
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-16 22:56:26 --> Argument 2 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type string, array given, called in C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php on line 56
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('POST', Array, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(61): curlPortHelper('167.172.68.215:...', 'POST', Array, Array, '')
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-16 22:57:18 --> Argument 2 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type string, array given, called in C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php on line 56
+#0 C:\xampp\htdocs\cms_ynci\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('POST', Array, Array)
+#1 C:\xampp\htdocs\cms_ynci\app\Controllers\Admin\Product\Product.php(61): curlPortHelper('167.172.68.215:...', 'POST', Array, Array, '')
+#2 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->store()
+#3 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp\htdocs\cms_ynci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ynci\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
