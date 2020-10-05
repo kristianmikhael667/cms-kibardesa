@@ -23,7 +23,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/cms_kibar/';
+	public $baseURL = 'http://localhost/kibar-cms/';
 
 	/*
 	|--------------------------------------------------------------------------

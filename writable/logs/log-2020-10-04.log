@@ -1,0 +1,50 @@
+CRITICAL - 2020-10-04 20:59:10 --> Trying to get property 'report' of non-object
+#0 C:\xampp\htdocs\kibar-cms\app\Views\transaction\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\kibar-cms\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kibar-cms\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\kibar-cms\app\Controllers\Admin\Transaction\Transaction.php(18): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kibar-cms\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-04 20:59:33 --> Trying to get property 'report' of non-object
+#0 C:\xampp\htdocs\kibar-cms\app\Views\transaction\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\kibar-cms\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kibar-cms\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\kibar-cms\app\Controllers\Admin\Transaction\Transaction.php(18): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kibar-cms\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-04 21:00:29 --> Trying to get property 'report' of non-object
+#0 C:\xampp\htdocs\kibar-cms\app\Views\transaction\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\kibar-cms\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kibar-cms\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\kibar-cms\app\Controllers\Admin\Transaction\Transaction.php(18): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kibar-cms\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-04 21:00:33 --> Trying to get property 'report' of non-object
+#0 C:\xampp\htdocs\kibar-cms\app\Views\transaction\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\kibar-cms\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kibar-cms\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\kibar-cms\app\Controllers\Admin\Transaction\Transaction.php(18): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kibar-cms\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-04 21:10:20 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\kibar-cms\app\Views\news\index.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 155, Array)
+#1 C:\xampp\htdocs\kibar-cms\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kibar-cms\system\Common.php(1087): CodeIgniter\View\View->render('news/index', Array, true)
+#3 C:\xampp\htdocs\kibar-cms\app\Controllers\Admin\News\News.php(16): view('news/index', Array)
+#4 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(914): App\Controllers\Admin\News\News->index()
+#5 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News\News))
+#6 C:\xampp\htdocs\kibar-cms\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kibar-cms\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

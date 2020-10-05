@@ -123,8 +123,13 @@ $request = Services::request();
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= base_url('admin/transaction/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'transaction' ? 'active' : '' ?>">
-                <p> List Transaction</p>
+              <a href="<?= base_url('admin/transaction/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
+                <p> List UNPAID User</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?= base_url('admin/transaction/paid') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
+                <p> List PAID User</p>
               </a>
             </li>
           </ul>
