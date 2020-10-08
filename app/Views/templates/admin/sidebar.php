@@ -43,62 +43,9 @@ $request = Services::request();
         </li>
         </li>
 
-        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'products' ? 'menu-open' : '' ?>">
-          <a href="#" class="nav-link active">
-            <i class="nav-icon fas fa-list"></i>
-            <p>
-              Products
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="<?= base_url('admin/products/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'products' ? 'active' : '' ?>">
-                <p>List Product</p>
-              </a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'news' ? 'menu-open' : '' ?>">
-          <a href="#" class="nav-link active">
-            <i class="nav-icon fas fa-newspaper"></i>
-            <p>
-              News
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="<?= base_url('admin/news/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'news' ? 'active' : '' ?>">
-                <p>List News</p>
-              </a>
-            </li>
-          </ul>
-        </li>
-
-
-        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'categories' ? 'menu-open' : '' ?>">
-          <a href="#" class="nav-link active">
-            <i class="nav-icon fab fa-buffer"></i>
-            <p>
-              Categories Product
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="<?= base_url('admin/categories/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'categories' ? 'active' : '' ?>">
-                <p>List Category Product</p>
-              </a>
-            </li>
-          </ul>
-        </li>
-
-
         <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'club' ? 'menu-open' : '' ?>">
           <a href="#" class="nav-link active">
-            <i class="nav-icon fa fa-motorcycle "></i>
+            <i class="nav-icon fa fa-map"></i>
             <p>
               Daerah
               <i class="right fas fa-angle-left"></i>
@@ -106,18 +53,26 @@ $request = Services::request();
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= base_url('admin/club/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'club' ? 'active' : '' ?>">
-                <p> List Daerah</p>
+              <a href="<?= base_url('admin/club/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == '' ? 'active' : '' ?>">
+                <p> List All Daerah</p>
               </a>
             </li>
           </ul>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="<?= base_url('admin/club/provinsi') ?>" class="nav-link <?= $request->uri->getSegment(2) == '' ? 'active' : '' ?>">
+                <p> List Provinsi</p>
+              </a>
+            </li>
+          </ul>
+
         </li>
 
-        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'club' ? 'menu-open' : '' ?>">
+        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'transaction' ? 'menu-open' : '' ?>">
           <a href="#" class="nav-link active">
-            <i class="nav-icon fa fa-shopping-cart "></i>
+            <i class="nav-icon fa fa-user"></i>
             <p>
-              Transaction
+              Registrasi
               <i class="right fas fa-angle-left"></i>
             </p>
           </a>
@@ -130,23 +85,6 @@ $request = Services::request();
             <li class="nav-item">
               <a href="<?= base_url('admin/transaction/paid') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
                 <p> List PAID User</p>
-              </a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'users' ? 'menu-open' : '' ?> <?= $request->uri->getSegment(2) == 'user-roles' ? 'menu-open' : '' ?>">
-          <a href="#" class="nav-link active">
-            <i class="nav-icon fa fa-user"></i>
-            <p>
-              User Roles
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="<?= base_url('admin/user-roles/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'users' ? 'active' : '' ?>">
-                <p>All Users</p>
               </a>
             </li>
           </ul>

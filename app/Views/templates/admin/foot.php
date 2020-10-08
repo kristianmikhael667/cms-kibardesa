@@ -399,6 +399,40 @@
     ///////////// CURD CLUB //////////////////
     //////////////////////////////////////////
 
+
+    bikinKota = () => {
+        $('#store_kota').modal('show');
+    }
+    storeKota = () => {
+        let fd = new FormData();
+        let name = $("#create_kota_name").val();
+        let desc = $("#create_kota_description").val();
+        let parent_club_id = $("#kota_club_parent_id").val();
+        fd.append('name', name);
+        fd.append('desc', desc);
+        fd.append('parent_club_id', parent_club_id);
+        $('#kota-add-button').text(`PROCESS`);
+        $.ajax({
+            type: "POST",
+            url: `${baseUrl}/admin/club/store-kota`,
+            cache: false,
+            contentType: false,
+            processData: false,
+            data: fd,
+            success: function(data) {
+                $('#store').modal('hide');
+                Swal.fire(
+                    'Successfully !',
+                    'Daerah Created !',
+                    'success'
+                )
+                // window.location.reload();
+                $('#kota-add-button').text('CREATE');
+            }
+        });
+    }
+
+
     bikinClub = () => {
         $('#store_club').modal('show');
     }
@@ -470,14 +504,10 @@
             data: fd,
             success: function(data) {
                 let result = JSON.parse(data);
-                // console.log(data)
-                $("#edit_club_id_id").val(result.data.id);
-                $("#edit_club_id").val(result.data.club_id);
+                // console.log(result.data.name);
                 $("#edit_club_name").val(result.data.name);
-                $("#edit_club_image").val(result.data.image_url);
                 $("#edit_club_description").val(result.data.description);
-                $("#edit_club_website").val(result.data.website);
-                $("#edit_club_born_at").val(result.data.born_at);
+                $("#edit_club_parent_id").val(result.data.parent_club_id);
             }
         });
     }
@@ -486,20 +516,13 @@
         console.log('update club')
         let fd = new FormData();
         let club_id = $('#edit_club_id').val();
+        let parent_club_id = $('#edit_club_parent_id').val();
         let name = $('#edit_club_name').val();
-        let img = $('#edit_input_file_image')[0].files[0];
         let desc = $('#edit_club_description').val();
-        let web = $('#edit_club_website').val();
-        let born = $('#edit_club_born_at').val();
-        let update = $('#edit_club_update_at').val();
         fd.append('club_id', club_id);
+        fd.append('parent_club_id', parent_club_id);
         fd.append('name', name);
-        fd.append('img', img);
         fd.append('desc', desc);
-        fd.append('web', web);
-        fd.append('born', born);
-        fd.append('update', update);
-        console.log(img)
         $('#create').text(`PROCESS`);
         await $.ajax({
             type: "POST",
@@ -512,14 +535,55 @@
                 $('#edit_category').modal('hide');
                 Swal.fire(
                     'Successfully !',
-                    'Club Updated !',
+                    'Daerah Updated !',
                     'success'
                 )
-                // window.location.reload();
+                window.location.reload();
                 $('#category-btn-update').text('CREATE');
             }
         });
     }
+
+    /////////////////////
+    ////// GET DATA TABLE
+    /////////////////////
+    let table = $('#kota_lists').DataTable({
+        responsive: true,
+        autoWidth: false,
+        serverside: true,
+        processing: true,
+        ajax: {
+            url: `${baseUrl}/admin/club/get-datatables-empty`,
+            dataType: "json",
+            type: "POST",
+        },
+        columns: [{
+                data: "Name"
+            },
+            {
+                data: "Daerah ID"
+            },
+            {
+                data: "Area Code"
+            },
+            {
+                data: "Description"
+            },
+            {
+                data: "Born at"
+            },
+            {
+                data: "Action"
+            },
+        ]
+    });
+
+    $("#select_kota").change(function() {
+
+        let club_id = $("#select_kota").val();
+        table.ajax.url(`${baseUrl}/admin/club/get_datatables/${club_id}`).load()
+
+    })
 
     //////////////////////////////////////////
 

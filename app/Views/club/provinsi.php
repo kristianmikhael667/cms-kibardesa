@@ -46,46 +46,6 @@
                 </div>
             </div>
 
-
-            <!-- Modal Create Kota -->
-            <div class="modal fade" id="store_kota" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Add Kota</h4>
-                        </div>
-                        <div class="modal-body">
-                            <label class="form-label">Nama Kota</label>
-                            <div class="form-group">
-                                <div class="form-line">
-                                    <input type="text" id="create_kota_name" name="create_club_name" class="form-control">
-                                </div>
-                            </div>
-                            <label class="form-label">Description</label>
-                            <div class="form-group">
-                                <div class="form-line">
-                                    <input type="text" id="create_kota_description" name="create_club_description" class="form-control">
-                                </div>
-                            </div>
-                            <label class="form-label">Assign Kota to Provinsi</label>
-                            <div class="form-group">
-                                <div class="form-line">
-                                    <select id="kota_club_parent_id" class="form-control form-control-sm">
-                                        <?php foreach (allProvinsi() as $provinsi) : ?>
-                                            <option value="<?= $provinsi->parent_club_id ?>"><?= $provinsi->name ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button id="kota-add-button" onclick="storeKota()" type="button" class="btn btn-primary btn-sm">SAVE</button>
-                            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">CLOSE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Modal Detail Club -->
             <div class="modal fade" id="detail_club" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
@@ -103,7 +63,7 @@
                             <label class="form-label">Parent Daerah ID</label>
                             <div class="form-group">
                                 <div class="form-line">
-                                    <p id="detail_club_parent_id"></p>
+                                    <p id="detail_club_parent_id"> </p>
                                 </div>
                             </div>
                             <label class="form-label">Daerah ID</label>
@@ -161,30 +121,45 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title">Edit Daerah</h4>
+                            <h4 class="modal-title">Edit Club</h4>
                         </div>
                         <div class="modal-body">
                             <input id="edit_club_id" name="edit_club_id" type="hidden" />
-                            <label class="form-label">Daerah Name</label>
+                            <label class="form-label">Club Name</label>
                             <div class="form-group">
                                 <div class="form-line">
                                     <input type="text" id="edit_club_name" name="edit_club_name" class="form-control">
                                 </div>
                             </div>
-                            <label class="form-label">Daerah Description</label>
+                            <label class="form-label">Club Logo</label>
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <img id="detail_club_image" style="width: 120px; height: 120px;" class="img-responsive">
+                                    <input id="edit_input_file_image" type="file">
+                                </div>
+                            </div>
+                            <label class="form-label">Club Description</label>
                             <div class="form-group">
                                 <div class="form-line">
                                     <input type="text" id="edit_club_description" name="edit_club_description" class="form-control">
                                 </div>
                             </div>
-                            <label class="form-label">Assign Daerah</label>
+                            <label class="form-label">Club Website</label>
                             <div class="form-group">
                                 <div class="form-line">
-                                    <select id="edit_club_parent_id" class="form-control form-control-sm">
-                                        <?php foreach (allProvinsi() as $provinsi) : ?>
-                                            <option value="<?= $provinsi->parent_club_id ?>"><?= $provinsi->name ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
+                                    <input type="text" id="edit_club_website" name="edit_club_website" class="form-control">
+                                </div>
+                            </div>
+                            <label class="form-label">Born at</label>
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input type="text" id="edit_club_born_at" name="edit_club_born_at" class="form-control">
+                                </div>
+                            </div>
+                            <label class="form-label">Update at</label>
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input class="form-control" id="edit_club_update_at" type="text" placeholder="<?php echo date("Y-m-d") . " " . date("h:i:sa"); ?>" readonly>
                                 </div>
                             </div>
                         </div>
@@ -200,13 +175,8 @@
             <!-- Main content -->
             <section class="content">
                 <div class="container">
-                    <div class="row">
-                        <div class="ml-2" style="position: relative; left: -5px; margin-bottom: 20px;">
-                            <a onclick="bikinClub()" href="javascript:void(0)" class="btn btn-primary btn-sm">Tambah Provinsi</a>
-                        </div>
-                        <div class="ml-2" style="position: relative; left: -5px; margin-bottom: 20px;">
-                            <a onclick="bikinKota()" href="javascript:void(0)" class="btn btn-primary btn-sm">Tambah Kota</a>
-                        </div>
+                    <div class="ml-2" style="position: relative; left: -5px; margin-bottom: 20px;">
+                        <a onclick="bikinClub()" href="javascript:void(0)" class="btn btn-primary btn-sm">Tambah Provinsi</a>
                     </div>
                     <div class="row">
                         <div class="col-12">
@@ -224,7 +194,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <?php foreach ($clubs->data as $club) : ?>
+                                            <?php foreach ($provinsi->branch as $club) : ?>
                                                 <tr>
                                                     <td><?= $club->name ?></td>
                                                     <td><?= $club->club_id ?></td>
@@ -234,9 +204,6 @@
                                                     <td width="125">
                                                         <button onclick="detailClub('<?= $club->club_id ?>')" type="button" class="btn btn-primary btn-sm">
                                                             <i class="fas fa-bars"></i>
-                                                        </button>
-                                                        <button onclick="editClub('<?= $club->club_id ?>')" type="button" class="btn btn-primary btn-sm">
-                                                            <i class="fas fa-edit"></i>
                                                         </button>
                                                     </td>
                                                 </tr>
