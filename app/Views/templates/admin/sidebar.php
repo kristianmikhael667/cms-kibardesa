@@ -33,7 +33,7 @@ $request = Services::request();
 
         <li class="nav-item has-treeview">
         <li class="nav-item">
-          <a href="" class="nav-link active">
+          <a href="" class="nav-link layoutside active">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
               Dashboard
@@ -44,7 +44,7 @@ $request = Services::request();
         </li>
 
         <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'club' ? 'menu-open' : '' ?>">
-          <a href="#" class="nav-link active">
+          <a href="#" class="nav-link layoutside active">
             <i class="nav-icon fa fa-map"></i>
             <p>
               Daerah
@@ -53,14 +53,14 @@ $request = Services::request();
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= base_url('admin/club/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == '' ? 'active' : '' ?>">
+              <a href="<?= base_url('admin/club/list') ?>" class="nav-link layoutside <?= $request->uri->getSegment(2) == '' ? 'active' : '' ?>">
                 <p> List All Daerah</p>
               </a>
             </li>
           </ul>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= base_url('admin/club/provinsi') ?>" class="nav-link <?= $request->uri->getSegment(2) == '' ? 'active' : '' ?>">
+              <a href="<?= base_url('admin/club/provinsi') ?>" class="nav-link layoutside <?= $request->uri->getSegment(2) == '' ? 'active' : '' ?>">
                 <p> List Provinsi</p>
               </a>
             </li>
@@ -69,7 +69,7 @@ $request = Services::request();
         </li>
 
         <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'transaction' ? 'menu-open' : '' ?>">
-          <a href="#" class="nav-link active">
+          <a href="#" class="nav-link layoutside active">
             <i class="nav-icon fa fa-user"></i>
             <p>
               Registrasi
@@ -78,12 +78,12 @@ $request = Services::request();
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= base_url('admin/transaction/list') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
+              <a href="<?= base_url('admin/transaction/list') ?>" class="nav-link layoutside <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
                 <p> List UNPAID User</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="<?= base_url('admin/transaction/paid') ?>" class="nav-link <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
+              <a href="<?= base_url('admin/transaction/paid') ?>" class="nav-link layoutside <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
                 <p> List PAID User</p>
               </a>
             </li>
@@ -91,7 +91,7 @@ $request = Services::request();
         </li>
 
         <li class="nav-item has-treeview">
-          <a href="#" class="nav-link active">
+          <a href="#" class="nav-link layoutside active">
             <i class="nav-icon fas fa-id-card"></i>
             <p>
               Account
@@ -100,7 +100,7 @@ $request = Services::request();
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a onclick="logout();" href="javascript:void(0);" class="nav-link">
+              <a onclick="logout();" href="javascript:void(0);" class="nav-link layoutside">
                 <p>Logout</p>
               </a>
             </li>

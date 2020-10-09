@@ -65,9 +65,11 @@ $routes->group('admin', function ($routes) {
     $routes->get('kabkota', 'Club::kabkota', ['namespace' => 'App\Controllers\Admin\Club']);
     $routes->post('store', 'Club::store', ['namespace' => 'App\Controllers\Admin\Club']);
     $routes->post('store-kota', 'Club::storekota', ['namespace' => 'App\Controllers\Admin\Club']);
+    $routes->post('storechild', 'Club::storechild', ['namespace' => 'App\Controllers\Admin\Club']);
     $routes->post('detail', 'Club::detail', ['namespace' => 'App\Controllers\Admin\Club']);
     $routes->post('update', 'Club::update', ['namespace' => 'App\Controllers\Admin\Club']);
     $routes->post('edit', 'Club::edit', ['namespace' => 'App\Controllers\Admin\Club']);
+    $routes->post('showparent', 'Club::showparent', ['namespace' => 'App\Controllers\Admin\Club']);
     $routes->post('get_datatables/(:any)', 'Club::get_datatables/$1', ['namespace' => 'App\Controllers\Admin\Club']);
     $routes->post('get-datatables-empty', 'Club::get_datatables_empty', ['namespace' => 'App\Controllers\Admin\Club']);
   });

@@ -72,10 +72,16 @@
   background-color: #f4f6f9 !important;
   color: #dc3545 !important;
 }
-.nav-link.active {
+
+.daerahplus {
+  border-radius: 10px !important;
+}
+
+.layoutside {
   padding: 14px 12px !important;
   border-radius: 16px !important;
 }
+
 .nav-link i.right {
   margin-top: 8px !important;
 }

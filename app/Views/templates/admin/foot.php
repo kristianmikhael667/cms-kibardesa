@@ -399,6 +399,56 @@
     ///////////// CURD CLUB //////////////////
     //////////////////////////////////////////
 
+    addChild = async (club_id) => {
+        $('#add_child').modal('show');
+        console.log('add child')
+        let fd = new FormData();
+        fd.append('club_id', club_id);
+        await $.ajax({
+            type: "POST",
+            url: `${baseUrl}/admin/club/showparent`,
+            cache: false,
+            contentType: false,
+            processData: false,
+            data: fd,
+            success: function(data) {
+                let result = JSON.parse(data);
+                // console.log(result.data.name);
+                $("#create_parent_id").val(result.data.club_id);
+                $("#create_parent_name").text(result.data.name);
+            }
+        });
+    }
+
+    storeChild = () => {
+        let fd = new FormData();
+        let name = $("#create_child_name").val();
+        let desc = $("#create_child_description").val();
+        let parent_club_id = $("#create_parent_id").val();
+        fd.append('name', name);
+        fd.append('desc', desc);
+        fd.append('parent_club_id', parent_club_id);
+        $('#child-add-button').text(`PROCESS`);
+        $.ajax({
+            type: "POST",
+            url: `${baseUrl}/admin/club/storechild`,
+            cache: false,
+            contentType: false,
+            processData: false,
+            data: fd,
+            success: function(data) {
+                $('#store').modal('hide');
+                Swal.fire(
+                    'Successfully !',
+                    'Daerah Child Created !',
+                    'success'
+                )
+                window.location.reload();
+                $('#child-add-button').text('CREATE');
+            }
+        });
+    }
+
 
     bikinKota = () => {
         $('#store_kota').modal('show');
@@ -426,7 +476,7 @@
                     'Daerah Created !',
                     'success'
                 )
-                // window.location.reload();
+                window.location.reload();
                 $('#kota-add-button').text('CREATE');
             }
         });

@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-            <!-- Modal Create Club -->
+            <!-- Modal Create Provinsi -->
             <div class="modal fade" id="store_club" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -46,41 +46,111 @@
                 </div>
             </div>
 
+            <!-- Modal Create Child -->
+            <div class="modal fade" id="add_child" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Add Daerah</h4>
+                        </div>
+                        <div class="modal-body">
+                            <input id="create_parent_id" name="create_parent_id" type="hidden" />
+                            <label class="form-label">Daerah Parent</label>
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <p id="create_parent_name"> </p>
+                                </div>
+                            </div>
+                            <label class="form-label">Nama Daerah</label>
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input type="text" id="create_child_name" name="create_child_name" class="form-control">
+                                </div>
+                            </div>
+                            <label class="form-label">Description</label>
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input type="text" id="create_child_description" name="create_child_description" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button id="child-add-button" onclick="storeChild()" type="button" class="btn btn-primary btn-sm">SAVE</button>
+                            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">CLOSE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <!-- Modal Create Kota -->
             <div class="modal fade" id="store_kota" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title">Add Kota</h4>
+                            <h4 class="modal-title">Tambah Daerah</h4>
                         </div>
                         <div class="modal-body">
-                            <label class="form-label">Nama Kota</label>
-                            <div class="form-group">
-                                <div class="form-line">
-                                    <input type="text" id="create_kota_name" name="create_club_name" class="form-control">
-                                </div>
+                            <div class="row">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active daerahplus" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Provinsi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link daerahplus" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Kabupaten/Kota</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <label class="form-label">Description</label>
-                            <div class="form-group">
-                                <div class="form-line">
-                                    <input type="text" id="create_kota_description" name="create_club_description" class="form-control">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    <label class="form-label">Nama Daerah</label>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" id="create_club_name" name="create_club_name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <label class="form-label">Description</label>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" id="create_club_description" name="create_club_description" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button id="club-add-button" onclick="storeClub()" type="button" class="btn btn-primary btn-sm">SAVE</button>
+                                        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">CLOSE</button>
+                                    </div>
                                 </div>
-                            </div>
-                            <label class="form-label">Assign Kota to Provinsi</label>
-                            <div class="form-group">
-                                <div class="form-line">
-                                    <select id="kota_club_parent_id" class="form-control form-control-sm">
-                                        <?php foreach (allProvinsi() as $provinsi) : ?>
-                                            <option value="<?= $provinsi->parent_club_id ?>"><?= $provinsi->name ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                    <label class="form-label">Nama Kota</label>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" id="create_kota_name" name="create_club_name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <label class="form-label">Description</label>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" id="create_kota_description" name="create_club_description" class="form-control">
+                                        </div>
+                                    </div>
+                                    <label class="form-label">Assign Kota to Provinsi</label>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <select id="kota_club_parent_id" class="form-control form-control-sm">
+                                                <?php foreach (allProvinsi() as $provinsi) : ?>
+                                                    <option value="<?= $provinsi->parent_club_id ?>"><?= $provinsi->name ?></option>
+                                                <?php endforeach; ?>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button id="kota-add-button" onclick="storeKota()" type="button" class="btn btn-primary btn-sm">SAVE</button>
+                                        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">CLOSE</button>
+                                    </div>
                                 </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
                             </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button id="kota-add-button" onclick="storeKota()" type="button" class="btn btn-primary btn-sm">SAVE</button>
-                            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">CLOSE</button>
                         </div>
                     </div>
                 </div>
@@ -202,10 +272,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="ml-2" style="position: relative; left: -5px; margin-bottom: 20px;">
-                            <a onclick="bikinClub()" href="javascript:void(0)" class="btn btn-primary btn-sm">Tambah Provinsi</a>
-                        </div>
-                        <div class="ml-2" style="position: relative; left: -5px; margin-bottom: 20px;">
-                            <a onclick="bikinKota()" href="javascript:void(0)" class="btn btn-primary btn-sm">Tambah Kota</a>
+                            <a onclick="bikinKota()" href="javascript:void(0)" class="btn btn-primary btn-sm">Tambah Daerah</a>
                         </div>
                     </div>
                     <div class="row">
@@ -237,6 +304,9 @@
                                                         </button>
                                                         <button onclick="editClub('<?= $club->club_id ?>')" type="button" class="btn btn-primary btn-sm">
                                                             <i class="fas fa-edit"></i>
+                                                        </button>
+                                                        <button onclick="addChild('<?= $club->club_id ?>')" type="button" class="btn btn-primary btn-sm">
+                                                            <i class="fas fa fa-plus"></i>
                                                         </button>
                                                     </td>
                                                 </tr>

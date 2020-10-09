@@ -111,6 +111,38 @@ class Club extends BaseController
         echo json_encode($result);
     }
 
+    public function showparent()
+    {
+        $request = Services::request();
+        $club_id = $request->getPost('club_id');
+        $result = curlHelper('https://dev.kibardesa.id/member-service/clubs/' . $club_id, 'GET');
+        // var_dump($result);
+        // die();
+        echo json_encode($result);
+    }
+
+    public function storechild()
+    {
+        $request = Services::request();
+
+        date_default_timezone_set("Asia/Jakarta");
+        $born = date("Y-m-d H:i:s");
+        $name  = $request->getPost('name');
+        $desc  = $request->getPost('desc');
+        $parent_club_id  = $request->getPost('parent_club_id');
+
+        $fields = [
+            "parent_club_id" => $parent_club_id,
+            "name" => $name,
+            "description" => $desc,
+            "born_at" =>  $born,
+        ];
+
+        // var_dump($fields);
+        // die();
+        curlHelper('https://dev.kibardesa.id/member-service/clubs', 'POST', $fields);
+    }
+
     /////////////////////
     ////// GET DATA TABLE
     /////////////////////
