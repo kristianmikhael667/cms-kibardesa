@@ -453,14 +453,20 @@
     bikinKota = () => {
         $('#store_kota').modal('show');
     }
+
+    // STORE KOTA
     storeKota = () => {
+        console.log("ADD KOTA");
         let fd = new FormData();
         let name = $("#create_kota_name").val();
         let desc = $("#create_kota_description").val();
         let parent_club_id = $("#kota_club_parent_id").val();
+        let area_code = $("#create_kota_area_code").val();
+        console.log(name);
         fd.append('name', name);
         fd.append('desc', desc);
         fd.append('parent_club_id', parent_club_id);
+        fd.append('area_code', area_code);
         $('#kota-add-button').text(`PROCESS`);
         $.ajax({
             type: "POST",
@@ -473,7 +479,7 @@
                 $('#store').modal('hide');
                 Swal.fire(
                     'Successfully !',
-                    'Daerah Created !',
+                    'Kota/Kabupaten Created !',
                     'success'
                 )
                 window.location.reload();
@@ -482,16 +488,22 @@
         });
     }
 
-
+    // MODAL ADD DAERAH
     bikinClub = () => {
         $('#store_club').modal('show');
     }
+
+    // STORE PRVONSI
     storeClub = () => {
+        console.log("ADD PROVINSI");
         let fd = new FormData();
         let name = $("#create_club_name").val();
         let desc = $("#create_club_description").val();
+        let area_code = $("#create_club_area_code").val();
+        console.log(name);
         fd.append('name', name);
         fd.append('desc', desc);
+        fd.append('area_code', area_code);
         $('#club-add-button').text(`PROCESS`);
         $.ajax({
             type: "POST",
@@ -504,7 +516,7 @@
                 $('#store').modal('hide');
                 Swal.fire(
                     'Successfully !',
-                    'Daerah Created !',
+                    'Provinsi Created !',
                     'success'
                 )
                 window.location.reload();

@@ -46,17 +46,19 @@ class Club extends BaseController
 
         $name  = $request->getPost('name');
         $desc  = $request->getPost('desc');
+        $area_code  = $request->getPost('area_code');
 
         $fields = [
             "parent_club_id" => "e608cb14-5ed3-4499-9609-f3b99f8e2070",
             "name" => $name,
             "description" => $desc,
             "born_at" => "",
+            "area_code" => $area_code,
+            "status" => 1,
         ];
 
-        // var_dump($fields);
-        // die();
-        curlHelper('https://dev.kibardesa.id/member-service/clubs', 'POST', $fields);
+        $check = curlHelper('https://dev.kibardesa.id/member-service/clubs', 'POST', $fields);
+        // var_dump($check);
     }
 
 
@@ -66,6 +68,7 @@ class Club extends BaseController
 
         $name  = $request->getPost('name');
         $desc  = $request->getPost('desc');
+        $area_code  = $request->getPost('area_code');
         $parent_club_id  = $request->getPost('parent_club_id');
 
         $fields = [
@@ -73,11 +76,14 @@ class Club extends BaseController
             "name" => $name,
             "description" => $desc,
             "born_at" => "",
+            "area_code" => $area_code,
+            "status" => 1,
         ];
 
         // var_dump($fields);
         // die();
-        curlHelper('https://dev.kibardesa.id/member-service/clubs', 'POST', $fields);
+        $check = curlHelper('https://dev.kibardesa.id/member-service/clubs', 'POST', $fields);
+        // var_dump($check);
     }
 
     // // UPDATE 

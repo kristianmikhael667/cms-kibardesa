@@ -17,35 +17,6 @@
                 </div>
             </div>
 
-            <!-- Modal Create Provinsi -->
-            <div class="modal fade" id="store_club" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Add Daerah</h4>
-                        </div>
-                        <div class="modal-body">
-                            <label class="form-label">Nama Daerah</label>
-                            <div class="form-group">
-                                <div class="form-line">
-                                    <input type="text" id="create_club_name" name="create_club_name" class="form-control">
-                                </div>
-                            </div>
-                            <label class="form-label">Description</label>
-                            <div class="form-group">
-                                <div class="form-line">
-                                    <input type="text" id="create_club_description" name="create_club_description" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button id="club-add-button" onclick="storeClub()" type="button" class="btn btn-primary btn-sm">SAVE</button>
-                            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">CLOSE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Modal Create Child -->
             <div class="modal fade" id="add_child" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
@@ -83,7 +54,7 @@
             </div>
 
 
-            <!-- Modal Create Kota -->
+            <!-- Modal Create Daerah -->
             <div class="modal fade" id="store_kota" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -102,6 +73,7 @@
                                 </ul>
                             </div>
                             <div class="tab-content" id="pills-tabContent">
+                                <!-- TAMBAH PROVINSI -->
                                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                     <label class="form-label">Nama Daerah</label>
                                     <div class="form-group">
@@ -115,23 +87,35 @@
                                             <input type="text" id="create_club_description" name="create_club_description" class="form-control">
                                         </div>
                                     </div>
-
+                                    <label class="form-label">Area Code</label>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="number" id="create_club_area_code" name="create_club_area_code" class="form-control">
+                                        </div>
+                                    </div>
                                     <div class="modal-footer">
                                         <button id="club-add-button" onclick="storeClub()" type="button" class="btn btn-primary btn-sm">SAVE</button>
                                         <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">CLOSE</button>
                                     </div>
                                 </div>
+                                <!-- TAMBAH KOTA -->
                                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                     <label class="form-label">Nama Kota</label>
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" id="create_kota_name" name="create_club_name" class="form-control">
+                                            <input type="text" id="create_kota_name" name="create_kota_name" class="form-control">
                                         </div>
                                     </div>
                                     <label class="form-label">Description</label>
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" id="create_kota_description" name="create_club_description" class="form-control">
+                                            <input type="text" id="create_kota_description" name="create_kota_description" class="form-control">
+                                        </div>
+                                    </div>
+                                    <label class="form-label">Area Code</label>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="number" id="create_kota_area_code" name="create_kota_area_code" class="form-control">
                                         </div>
                                     </div>
                                     <label class="form-label">Assign Kota to Provinsi</label>
