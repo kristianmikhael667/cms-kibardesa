@@ -84,6 +84,9 @@ $routes->group('admin', function ($routes) {
     $routes->post('detail', 'News::detail', ['namespace' => 'App\Controllers\Admin\News']);
     $routes->post('store', 'News::store', ['namespace' => 'App\Controllers\Admin\News']);
   });
+  $routes->group('report', function ($routes){
+    $routes->get('list', 'Report::index', ['namespace' => 'App\Controllers\Admin\Report']);
+  });
 });
 
 $routes->group('partner', function ($routes) {

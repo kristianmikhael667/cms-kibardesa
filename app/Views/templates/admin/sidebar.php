@@ -91,6 +91,17 @@ $request = Services::request();
         </li>
 
         <li class="nav-item has-treeview">
+        <li class="nav-item">
+          <a href="<?= base_url('admin/report/list') ?>" class="nav-link layoutside active">
+            <i class="nav-icon fas fa-project-diagram"></i>
+            <p>
+              Report Project Detail
+            </p>
+          </a>
+        </li>
+        </li>
+
+        <li class="nav-item has-treeview">
           <a href="#" class="nav-link layoutside active">
             <i class="nav-icon fas fa-id-card"></i>
             <p>
