@@ -86,6 +86,9 @@ $routes->group('admin', function ($routes) {
   });
   $routes->group('report', function ($routes){
     $routes->get('list', 'Report::index', ['namespace' => 'App\Controllers\Admin\Report']);
+    $routes->get('detailproject','Report::lihat', ['namespace' => 'App\Controllers\Admin\Report']);
+    $routes->post('detail', 'Report::detail', ['namespace' => 'App\Controllers\Admin\Report']);
+    $routes->post('persentage','Report::persentage', ['namespace' => 'App\Controllers\Admin\Report']);
   });
 });
 

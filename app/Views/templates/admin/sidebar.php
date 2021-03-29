@@ -8,16 +8,16 @@ $request = Services::request();
 
 <!-- ADMIN -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
-  <div class="container" style="margin: 15px 0 0 30px;">
+  <div class="container" style="margin: 10px 0 0 30px;">
     <div class="row">
       <div style="margin: 6px 0 0 14px;">
-        <img src="<?= base_url('public/images/yncilogoblack.png') ?>" alt="yncilogoblack" class="brand-image img-square" style="width: 180px !important; left: -7px; position: relative;  ">
+        <img src="/images/Jalindesa.jpg" alt="yncilogoblack" class="brand-image img-square" style="width: 180px !important; height: 140px; left: -7px; position: relative;  ">
       </div>
     </div>
   </div>
 
   <div class="sidebar">
-    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+    <div class="user-panel mt-2 pb-3 mb-2 d-flex">
       <div class="image">
         <img src="https://dev.kibardesa.id<?= session('avatar_url') ?>" style="width: 120px;" class="img-responsive img-circle elevation-2" alt="User Image">
       </div>
@@ -33,7 +33,7 @@ $request = Services::request();
 
         <li class="nav-item has-treeview">
         <li class="nav-item">
-          <a href="" class="nav-link layoutside active">
+          <a href="<?= base_url('admin/dashboard') ?>" class="nav-link layoutside active">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
               Dashboard
@@ -93,9 +93,9 @@ $request = Services::request();
         <li class="nav-item has-treeview">
         <li class="nav-item">
           <a href="<?= base_url('admin/report/list') ?>" class="nav-link layoutside active">
-            <i class="nav-icon fas fa-project-diagram"></i>
+            <i class="nav-icon fas fa-file"></i>
             <p>
-              Report Project Detail
+              Report Project
             </p>
           </a>
         </li>

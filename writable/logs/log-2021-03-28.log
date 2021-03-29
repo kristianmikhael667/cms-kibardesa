@@ -253,3 +253,47 @@ CRITICAL - 2021-03-28 11:16:04 --> Undefined variable: result
 #10 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
 #11 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
 #12 {main}
+CRITICAL - 2021-03-28 11:31:22 --> Client error: `GET http://longmsg.id:8117/project-service/project-detail/7` resulted in a `401 Unauthorized` response:
+{"code":401,"error":"Missing auth token","message":"Bad Request"}
+
+
+#0 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/guzzle/src/ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'longmsg.id:8117...', Array)
+#11 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(28): GuzzleHttp\Client->get('longmsg.id:8117...', Array)
+#12 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->index()
+#13 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#14 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#16 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#17 {main}
+CRITICAL - 2021-03-28 11:31:26 --> Client error: `GET http://longmsg.id:8117/project-service/project-detail/7` resulted in a `401 Unauthorized` response:
+{"code":401,"error":"Missing auth token","message":"Bad Request"}
+
+
+#0 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 /Users/mike/Task/kibar-cms/vendor/guzzlehttp/guzzle/src/ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'longmsg.id:8117...', Array)
+#11 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(28): GuzzleHttp\Client->get('longmsg.id:8117...', Array)
+#12 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->index()
+#13 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#14 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#16 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#17 {main}

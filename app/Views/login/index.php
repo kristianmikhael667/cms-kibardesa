@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-	<title>Admin Login | Kibar Desa</title>
+	<title>Admin Login | Jalin Desa</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<link rel="icon" type="image/png" href="/images/Jalindesa.jpg" />
 	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/vendor/animate/animate.css">
@@ -20,7 +20,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<img src="/images/img-02.png" alt="IMG">
+					<img src="/images/Jalindesa.jpg" alt="IMG">
 				</div>
 
 				<form action="<?= base_url(); ?>/admin/auth/login" method="POST" class="login100-form validate-form">

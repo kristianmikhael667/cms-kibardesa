@@ -9,53 +9,6 @@
 <script src="/adminLTE-3/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
 <script src="/adminLTE-3/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
 
-<!-- Resources Pie -->
-<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/themes/material.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
-
-<!-- Chart code -->
-<script>
-am4core.ready(function() {
-
-// Themes begin
-am4core.useTheme(am4themes_material);
-am4core.useTheme(am4themes_animated);
-// Themes end
-
-// Create chart instance
-var chart = am4core.create("chartdiv", am4charts.PieChart);
-
-// Add data
-chart.data = [ {
-  "country": "Persentage",
-  "litres": <?php echo $result ?>
-}, {
-  "country": "Total",
-  "litres": 301.9
-},
-];
-
-// Add and configure Series
-var pieSeries = chart.series.push(new am4charts.PieSeries());
-pieSeries.dataFields.value = "litres";
-pieSeries.dataFields.category = "country";
-pieSeries.slices.template.stroke = am4core.color("#fff");
-pieSeries.slices.template.strokeOpacity = 1;
-
-// This creates initial animation
-pieSeries.hiddenState.properties.opacity = 1;
-pieSeries.hiddenState.properties.endAngle = -90;
-pieSeries.hiddenState.properties.startAngle = -90;
-
-chart.hiddenState.properties.radius = am4core.percent(0);
-
-
-}); // end am4core.ready()
-</script>
-
-
 <script>
     const token = '<?= getToken(); ?>';
     const baseUrl = '<?= base_url(); ?>';
@@ -369,8 +322,54 @@ chart.hiddenState.properties.radius = am4core.percent(0);
         });
     }
 
-    //////////////////////////////////////////
-    //////////////////////////////////////////
+
+     // Data Report
+   getProject = (project_id) => {
+        $('#get_project').modal('show');
+        let fd = new FormData();
+        fd.append('project_id', project_id);
+        $.ajax({
+            type: "POST",
+            url: `${baseUrl}/admin/report/detail`,
+            cache: false,
+            contentType: false,
+            processData: false,
+            data: fd,
+            success: function(data) {
+                let result = JSON.parse(data)
+                $("#detail_name").text(result.name);
+                $("#detail_user_id").text(result.user_id);
+                $("#detail_value_project").text(result.value_project);
+                $("#detail_province").text(result.province);
+                $("#detail_city").text(result.city);
+                $("#detail_sub_dis").text(result.sub_district);
+                $("#detail_address").text(result.address);
+                $("#detail_type").text(result.type);
+                $("#detail_picture").attr('src', `https://api.yamahanmaxclub.com${result.image_url}`);
+                $("#detail_created").text(result.created_at);
+                $("#detail_updated").text(result.updated_at);
+
+            }
+        });
+    }
+
+    detailProject = async (project_id) => {
+        let fd = new FormData();
+        fd.append('project_id', project_id);
+        await $.ajax({
+            type: "POST",
+            url: `${baseUrl}/admin/report/persentage`,
+            cache: false,
+            contentType: false,
+            processData: false,
+            data: fd,
+            success: function(data) {
+                var res = JSON.parse(data)
+                $("#project_id").val(res.project_id);
+                location.href = `${baseUrl}/admin/report/detailproject`;
+            }
+        });
+    }
 
     //////////////////////////////////////////
     ///////////// CURD USERS /////////////////

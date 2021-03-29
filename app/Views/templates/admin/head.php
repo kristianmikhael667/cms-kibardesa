@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Admin | Kibar Desa </title>
+  <title> Admin | Jalin Desa </title>
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/Jalindesa.jpg">
 
   <!-- Override -->
   <link rel="stylesheet" href="/adminLTE-3/override.css">

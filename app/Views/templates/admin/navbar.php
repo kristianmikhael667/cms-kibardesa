@@ -40,6 +40,11 @@ $request = Services::request();
           echo '<div class="row">
             <h4 class="ml-3 text-dark">List Daerah</h4>
           </div>';
+          break;
+          case 'report':
+            echo '<div class="row">
+              <h4 class="ml-3 text-dark">List Report</h4>
+            </div>';
         default;
           break;
       }
