@@ -120,6 +120,7 @@
                                             <tr>
                                                 <th>No</th>
                                                 <th>Name</th>
+                                                <th>Project ID</th>
                                                 <th>Type</th>
                                                 <th>Address</th>
                                                 <th>Value Project</th>
@@ -133,10 +134,11 @@
                                                 <tr>
                                                     <td><?= $no++; ?></td>
                                                     <td><?= $rp->name ?></td>
+                                                    <td><?= $rp->project_id ?></td>
                                                     <td><?= $rp->type ?></td>
                                                     <td><?= $rp->address ?></td>
                                                     <td><?= $rp->value_project ?></td>
-                                                    <td><?= $rp->created_at ?></td>
+                                                    <td><?= date("Y-m-d h:i:s", strtotime($rp->created_at)); ?></td>
                                                     <td>
                                                         <button onclick="getProject('<?= $rp->project_id ?>')" type="button" class="btn btn-primary btn-sm">
                                                             <i class="fas fa-info-circle"></i>

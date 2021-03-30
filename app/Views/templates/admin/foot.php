@@ -323,8 +323,8 @@
     }
 
 
-     // Data Report
-   getProject = (project_id) => {
+    // Data Report
+    getProject = (project_id) => {
         $('#get_project').modal('show');
         let fd = new FormData();
         fd.append('project_id', project_id);
@@ -367,6 +367,16 @@
                 var res = JSON.parse(data)
                 $("#project_id").val(res.project_id);
                 location.href = `${baseUrl}/admin/report/detailproject`;
+            },
+            error: function(request, status, error) {
+                Swal.fire({
+                        title: '<strong>Persentace is <u>Required</u></strong>',
+                        icon: 'info',
+                        html: 'Please fill in your <b>Persentace</b>',
+                        showCloseButton: true,
+                        showCancelButton: true,
+                        focusConfirm: false,
+                    })
             }
         });
     }

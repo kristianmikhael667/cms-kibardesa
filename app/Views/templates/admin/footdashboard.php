@@ -34,7 +34,7 @@ chart.data = [ {
   "litres": <?php echo $persen ?>
 }, {
   "country": "Total",
-  "litres": 301.9
+  "litres": <?php echo 100 - $persen ?>
 },
 ];
 

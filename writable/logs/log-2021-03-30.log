@@ -1,0 +1,228 @@
+CRITICAL - 2021-03-30 05:17:41 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:18:29 --> Undefined variable: project_id
+#0 /Users/mike/Task/kibar-cms/app/Views/report/index.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mike/Tas...', 137, Array)
+#1 /Users/mike/Task/kibar-cms/system/View/View.php(246): include('/Users/mike/Tas...')
+#2 /Users/mike/Task/kibar-cms/system/Common.php(1087): CodeIgniter\View\View->render('report/index', Array, true)
+#3 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(34): view('report/index', Array)
+#4 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->index()
+#5 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#6 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#9 {main}
+CRITICAL - 2021-03-30 05:18:53 --> Undefined variable: project_id
+#0 /Users/mike/Task/kibar-cms/app/Views/report/index.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mike/Tas...', 137, Array)
+#1 /Users/mike/Task/kibar-cms/system/View/View.php(246): include('/Users/mike/Tas...')
+#2 /Users/mike/Task/kibar-cms/system/Common.php(1087): CodeIgniter\View\View->render('report/index', Array, true)
+#3 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(34): view('report/index', Array)
+#4 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->index()
+#5 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#6 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#9 {main}
+CRITICAL - 2021-03-30 05:30:45 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:31:49 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:31:50 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:31:51 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:33:05 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:34:12 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:35:36 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:36:17 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:36:18 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:36:48 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:38:04 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:39:00 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:40:22 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:42:08 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:42:20 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:43:05 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:43:09 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:43:33 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:44:02 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 05:45:25 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 07:03:48 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 147, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}
+CRITICAL - 2021-03-30 08:18:08 --> Trying to get property 'project_id' of non-object
+#0 /Users/mike/Task/kibar-cms/app/Views/report/project.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mike/Tas...', 31, Array)
+#1 /Users/mike/Task/kibar-cms/system/View/View.php(246): include('/Users/mike/Tas...')
+#2 /Users/mike/Task/kibar-cms/system/Common.php(1087): CodeIgniter\View\View->render('report/project', Array, true)
+#3 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(113): view('report/project', Array)
+#4 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->lihat()
+#5 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#6 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#9 {main}
+CRITICAL - 2021-03-30 08:19:56 --> Trying to get property 'body' of non-object
+#0 /Users/mike/Task/kibar-cms/app/Views/report/project.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/mike/Tas...', 31, Array)
+#1 /Users/mike/Task/kibar-cms/system/View/View.php(246): include('/Users/mike/Tas...')
+#2 /Users/mike/Task/kibar-cms/system/Common.php(1087): CodeIgniter\View\View->render('report/project', Array, true)
+#3 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(113): view('report/project', Array)
+#4 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->lihat()
+#5 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#6 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#9 {main}
+CRITICAL - 2021-03-30 08:25:05 --> Undefined offset: 0
+#0 /Users/mike/Task/kibar-cms/app/Controllers/Admin/Report/Report.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Users/mike/Tas...', 148, Array)
+#1 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(914): App\Controllers\Admin\Report\Report->persentage()
+#2 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\Report))
+#3 /Users/mike/Task/kibar-cms/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mike/Task/kibar-cms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/mike/Task/kibar-cms/system/Commands/Server/rewrite.php(34): require_once('/Users/mike/Tas...')
+#6 {main}

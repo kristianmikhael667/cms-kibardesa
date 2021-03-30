@@ -110,6 +110,7 @@ class Report extends BaseController
             // die(dd($result));
             $data["report"] = $result->body;
             $data["persen"] = $result->body[0]->percentage;
+            $data["idd"] = $result->body[0]->project_id;
             return view('report/project', $data);
         }
     }
