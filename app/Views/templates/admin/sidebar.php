@@ -4,118 +4,87 @@ use Config\Services;
 
 $request = Services::request();
 ?>
-
-
-<!-- ADMIN -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
-  <div class="container" style="margin: 10px 0 0 30px;">
+  <div class="container-fluid">
     <div class="row">
-      <div style="margin: 6px 0 0 14px;">
-        <img src="/images/Jalindesa.jpg" alt="yncilogoblack" class="brand-image img-square" style="width: 180px !important; height: 140px; left: -7px; position: relative;  ">
+      <div class="col">
+        <img src="<?= base_url('/images/Jalindesa.jpg') ?>" alt="PekiKJKT Logo" class="brand-image ml-2 " style="width: 200px !important; margin-left: -15px;">
       </div>
     </div>
   </div>
 
   <div class="sidebar">
-    <div class="user-panel mt-2 pb-3 mb-2 d-flex">
-      <div class="image">
-        <img src="https://dev.kibardesa.id<?= session('avatar_url') ?>" style="width: 120px;" class="img-responsive img-circle elevation-2" alt="User Image">
-      </div>
-      <div class="info">
-        <span id="welcome">Welcome,</span>
-        <a href="#" class="d-block"><?= session('full_name') ?></a>
+    <div class="user-panel mt-3 pb-3 mb-3 d-flex" style="margin-top: -20px !important;">
+      <!-- <div class="image">
+                <img src="https://freepikpsd.com/wp-content/uploads/2019/10/admin-logo-png-3-Free-PNG-Images-Transparent.png" style="width: 120px;" class="img-responsive img-circle elevation-2" alt="User Image">
+            </div> -->
+      <div class="info" style="position: relative; top: 20px;">
+        <b><span id="welcome">Welcome, <?= session('full_name') ?> </span></b>
+
+        <!-- <div class="dropdown show">
+                    <a href="#" class="d-block dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </div> -->
       </div>
     </div>
 
     <!-- Sidebar Menu -->
-    <nav class="mt-2">
-      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-
-        <li class="nav-item has-treeview">
+    <nav class="mt-2" style="overflow-y: scroll; height: 400px;">
+      <ul class=" nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <li class="nav-item">
-          <a href="<?= base_url('admin/dashboard') ?>" class="nav-link layoutside active">
+          <a href="<?= base_url('admin/dashboard') ?>" class="nav-link active">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
               Dashboard
-              <i class="right fas fa-angle-left"></i>
+              <i class=""></i>
             </p>
           </a>
         </li>
-        </li>
+        <?php $current_page = basename($_SERVER['PHP_SELF']); ?>
 
-        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'club' ? 'menu-open' : '' ?>">
-          <a href="#" class="nav-link layoutside active">
-            <i class="nav-icon fa fa-map"></i>
-            <p>
-              Daerah
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="<?= base_url('admin/club/list') ?>" class="nav-link layoutside <?= $request->uri->getSegment(2) == '' ? 'active' : '' ?>">
-                <p> List All Daerah</p>
-              </a>
-            </li>
-          </ul>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="<?= base_url('admin/club/provinsi') ?>" class="nav-link layoutside <?= $request->uri->getSegment(2) == '' ? 'active' : '' ?>">
-                <p> List Provinsi</p>
-              </a>
-            </li>
-          </ul>
-
-        </li>
-
-        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'transaction' ? 'menu-open' : '' ?>">
-          <a href="#" class="nav-link layoutside active">
+        <li class="nav-item has-treeview <?= $request->uri->getSegment(2) == 'users' ? 'menu-open' : '' ?> <?= $request->uri->getSegment(3) == 'seller' ? 'menu-open' : '' ?>">
+          <a href="#" class="nav-link active">
             <i class="nav-icon fa fa-user"></i>
             <p>
-              Registrasi
+              User
               <i class="right fas fa-angle-left"></i>
             </p>
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= base_url('admin/transaction/list') ?>" class="nav-link layoutside <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
-                <p> List UNPAID User</p>
+              <a href="<?= base_url('admin/users/createuser') ?>" class="nav-link <?= $current_page == 'createuser' ? 'active' : '' ?>">
+                <p>Create User</p>
               </a>
             </li>
+          </ul>
+          <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= base_url('admin/transaction/paid') ?>" class="nav-link layoutside <?= $request->uri->getSegment(2) == 'transaction' ? '' : '' ?>">
-                <p> List PAID User</p>
+              <a href="<?= base_url('admin/users/list') ?>" class="nav-link <?= $current_page == 'list' ? 'active' : '' ?>">
+                <p>All Users</p>
               </a>
             </li>
           </ul>
         </li>
 
-        <li class="nav-item has-treeview">
         <li class="nav-item">
-          <a href="<?= base_url('admin/report/list') ?>" class="nav-link layoutside active">
-            <i class="nav-icon fas fa-file"></i>
+          <a href="<?= base_url('admin/transaction/paid') ?>" class="nav-link active">
+            <i class="nav-icon far fa-credit-card"></i>
             <p>
-              Report Project
+              Transaction
+              <i class=""></i>
             </p>
           </a>
-        </li>
         </li>
 
-        <li class="nav-item has-treeview">
-          <a href="#" class="nav-link layoutside active">
-            <i class="nav-icon fas fa-id-card"></i>
+        <li class="nav-item">
+          <a onclick="logout();" href="javascript:void(0);" class="nav-link active">
+            <i class="nav-icon fas fa-sign-out-alt"></i>
             <p>
-              Account
-              <i class="right fas fa-angle-left"></i>
+              Logout
             </p>
           </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a onclick="logout();" href="javascript:void(0);" class="nav-link layoutside">
-                <p>Logout</p>
-              </a>
-            </li>
-          </ul>
         </li>
 
       </ul>

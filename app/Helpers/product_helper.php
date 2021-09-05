@@ -48,3 +48,11 @@ function totalTransaksi()
   $totalTransaksi = count($data->results);
   return $totalTransaksi;
 }
+
+function totalTransaksiPaid()
+{
+  helper('curl');
+  $data = curlPortHelper('https://jalindesaapi.connexist.com/ppob-service/report-detail?status=PAID', 'GET', [], '');
+  $totalTransaksi = count($data->report);
+  return $totalTransaksi;
+}

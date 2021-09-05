@@ -66,7 +66,7 @@ class Curl
     /**
      * @var string The user agent name which is set when making a request
      */
-    const USER_AGENT = 'PHP Curl/1.9 (+https://github.com/php-mod/curl)';
+    const USER_AGENT = 'PHP Curl/2.3 (+https://github.com/php-mod/curl)';
 
     private $_cookies = array();
 
@@ -318,7 +318,7 @@ class Curl
      * Make a post request with optional post data.
      *
      * @param string $url  The url to make the post request
-     * @param array  $data Post data to pass to the url
+     * @param array|object|string $data Post data to pass to the url
      * @param boolean $asJson Whether the data should be passed as json or not. {@insce 2.2.1}
      * @return self
      */

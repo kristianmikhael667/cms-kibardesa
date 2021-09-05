@@ -33,7 +33,7 @@ $request = Services::request();
           break;
         case 'transaction':
           echo '<div class="row">
-                <h3 class="ml-3 text-dark">List Transaksi</h3>
+                <h3 class="ml-3 text-dark">List Transaksi Paid</h3>
                 </div>';
           break;
         case 'club':
@@ -41,8 +41,8 @@ $request = Services::request();
             <h4 class="ml-3 text-dark">List Daerah</h4>
           </div>';
           break;
-          case 'report':
-            echo '<div class="row">
+        case 'report':
+          echo '<div class="row">
               <h4 class="ml-3 text-dark">List Report</h4>
             </div>';
         default;

@@ -10,8 +10,6 @@ class ComposerStaticInit2b41a267499738b56ff97dc2244c7fb3
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
-        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '3917c79c5052b270641b5a200963dbc2' => __DIR__ . '/..' . '/kint-php/kint/init.php',
@@ -39,7 +37,6 @@ class ComposerStaticInit2b41a267499738b56ff97dc2244c7fb3
         ),
         'L' => 
         array (
-            'Laminas\\ZendFrameworkBridge\\' => 28,
             'Laminas\\Escaper\\' => 16,
         ),
         'K' => 
@@ -88,7 +85,8 @@ class ComposerStaticInit2b41a267499738b56ff97dc2244c7fb3
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -97,10 +95,6 @@ class ComposerStaticInit2b41a267499738b56ff97dc2244c7fb3
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
-        ),
-        'Laminas\\ZendFrameworkBridge\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src',
         ),
         'Laminas\\Escaper\\' => 
         array (

@@ -4,18 +4,52 @@
 <script src="/adminLTE-3/plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <!-- DataTables -->
-<script src="/adminLTE-3/plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="/adminLTE-3/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-<script src="/adminLTE-3/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-<script src="/adminLTE-3/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="<?= base_url('/adminLTE-3/plugins/datatables/jquery.dataTables.min.js') ?>"></script>
+<script src="<?= base_url('/adminLTE-3/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') ?>"></script>
+<script src="<?= base_url('/adminLTE-3/plugins/datatables-responsive/js/dataTables.responsive.min.js') ?>"></script>
+<script src="<?= base_url('/adminLTE-3/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') ?>"></script>
+
+<!-- Bootstrap 4 -->
+<script src="<?= base_url('/adminLTE-3/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<!-- ChartJS -->
+<script src="<?= base_url('/adminLTE-3/plugins/chart.js/Chart.min.js') ?>"></script>
+<!-- JQVMap -->
+<script src="<?= base_url('/adminLTE-3/plugins/jqvmap/jquery.vmap.min.js') ?>"></script>
+<script src="<?= base_url('/adminLTE-3/plugins/jqvmap/maps/jquery.vmap.usa.js') ?>"></script>
+<!-- jQuery Knob Chart -->
+<script src="<?= base_url('/adminLTE-3/plugins/jquery-knob/jquery.knob.min.js') ?>"></script>
+<!-- Jquery Lazy -->
+<script src="<?= base_url('/adminLTE-3/plugins/jquery-lazy/jquery.lazy.min.js') ?>"></script>
+<!-- daterangepicker -->
+<script src="<?= base_url('/adminLTE-3/plugins/moment/moment.min.js') ?>"></script>
+<script src="<?= base_url('/adminLTE-3/plugins/daterangepicker/daterangepicker.js') ?>"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="<?= base_url('/adminLTE-3/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') ?>"></script>
+<!-- Summernote -->
+<script src="<?= base_url('/adminLTE-3/plugins/summernote/summernote-bs4.min.js') ?>"></script>
+<!-- Sweetalert 2 -->
+<script src="<?= base_url('/adminLTE-3/plugins/sweetalert2/sweetalert2.min.js') ?>"></script>
+<!-- overlayScrollbars -->
+<script src="<?= base_url('/adminLTE-3/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') ?>"></script>
+<!-- AdminLTE App -->
+<script src="<?= base_url('/adminLTE-3/dist/js/adminlte.js') ?>"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="<?= base_url('/adminLTE-3/dist/js/pages/dashboard.js') ?>"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?= base_url('/adminLTE-3/dist/js/demo.js') ?>"></script>
+<!-- CDN DatePicker -->
+<script src="https://unpkg.com/jquery-datetimepicker"></script>
+<script>
+    $('#product-lists').DataTable({
+        responsive: true,
+        autoWidth: false,
+    });
+</script>
 
 <script>
     const token = '<?= getToken(); ?>';
     const baseUrl = '<?= base_url(); ?>';
-    $('#product-lists').DataTable({
-        responsive: true,
-        autoWidth: false,
-    })
+
 
     //////////////////////////////////////////
     ///////////// CURD CATEGORY //////////////
@@ -370,13 +404,13 @@
             },
             error: function(request, status, error) {
                 Swal.fire({
-                        title: '<strong>Persentace is <u>Required</u></strong>',
-                        icon: 'info',
-                        html: 'Please fill in your <b>Persentace</b>',
-                        showCloseButton: true,
-                        showCancelButton: true,
-                        focusConfirm: false,
-                    })
+                    title: '<strong>Persentace is <u>Required</u></strong>',
+                    icon: 'info',
+                    html: 'Please fill in your <b>Persentace</b>',
+                    showCloseButton: true,
+                    showCancelButton: true,
+                    focusConfirm: false,
+                })
             }
         });
     }
@@ -728,35 +762,72 @@
         });
     }
 </script>
-<!-- Bootstrap 4 -->
-<script src="/adminLTE-3/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- ChartJS -->
-<script src="/adminLTE-3/plugins/chart.js/Chart.min.js"></script>
-<!-- JQVMap -->
-<script src="/adminLTE-3/plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="/adminLTE-3/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="/adminLTE-3/plugins/jquery-knob/jquery.knob.min.js"></script>
-<!-- Jquery Lazy -->
-<script src="/adminLTE-3/plugins/jquery-lazy/jquery.lazy.min.js"></script>
-<!-- daterangepicker -->
-<script src="/adminLTE-3/plugins/moment/moment.min.js"></script>
-<script src="/adminLTE-3/plugins/daterangepicker/daterangepicker.js"></script>
-<!-- Tempusdominus Bootstrap 4 -->
-<script src="/adminLTE-3/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-<!-- Summernote -->
-<script src="/adminLTE-3/plugins/summernote/summernote-bs4.min.js"></script>
-<!-- Sweetalert 2 -->
-<script src="/adminLTE-3/plugins/sweetalert2/sweetalert2.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="/adminLTE-3/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<!-- AdminLTE App -->
-<script src="/adminLTE-3/dist/js/adminlte.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="/adminLTE-3/dist/js/pages/dashboard.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="/adminLTE-3/dist/js/demo.js"></script>
 
+<script>
+    // Khusus Transaksi
+    $.widget.bridge('uibutton', $.ui.button);
+    $(function() {
+        $("#start_date").datetimepicker({
+            format: 'Y/m/d H:i:s',
+            todayBtn: false,
+            autoHide: true,
+            todayHighlight: true
+        });
+        $("#end_date").datetimepicker({
+            format: 'Y/m/d H:i:s',
+            todayBtn: false
+
+        });
+    })
+    let start_date = $("#start_date").val()
+    let end_date = $("#end_date").val()
+    let fd = new FormData()
+    fd.append("start_date", start_date)
+    fd.append("end_date", end_date)
+    $.ajax({
+        url: `${baseUrl}/admin/transaction/periode`,
+        type: 'POST',
+        cache: false,
+        contentType: false,
+        processData: false,
+        data: fd,
+        success: function(data) {
+            let result = JSON.parse(data)
+
+            $("#income_per_hari").text(result.total_amount)
+            $("#total_transaction").text(result.total_transaction)
+            $("#btn_apply_periode").text("APPLY")
+        },
+        error: function(data) {
+            $("#btn_apply_periode").text("APPLY")
+        }
+    })
+    $("#btn_apply_periode").click(function() {
+        let valueStartDate = $("#start_date").val()
+        let valueEndDate = $("#end_date").val()
+        let fd = new FormData()
+        fd.append("start_date", valueStartDate)
+        fd.append("end_date", valueEndDate)
+        $("#btn_apply_periode").text("PROCESS")
+        $.ajax({
+            url: `${baseUrl}/admin/transaction/periode`,
+            type: 'POST',
+            cache: false,
+            contentType: false,
+            processData: false,
+            data: fd,
+            success: function(data) {
+                let result = JSON.parse(data)
+                $("#income_per_hari").text(result.total_amount)
+                $("#total_transaction").text(result.total_transaction)
+                $("#btn_apply_periode").text("APPLY")
+            },
+            error: function(data) {
+                $("#btn_apply_periode").text("APPLY")
+            }
+        })
+    });
+</script>
 </body>
 
 </html>

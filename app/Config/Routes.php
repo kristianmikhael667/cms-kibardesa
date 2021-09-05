@@ -76,7 +76,7 @@ $routes->group('admin', function ($routes) {
   $routes->group('transaction', function ($routes) {
     $routes->get('list', 'Transaction::index', ['namespace' => 'App\Controllers\Admin\Transaction']);
     $routes->get('paid', 'Transaction::paid', ['namespace' => 'App\Controllers\Admin\Transaction']);
-    // $routes->post('periode', 'Transaction::periode', ['namespace' => 'App\Controllers\Admin\Transaction']);
+    $routes->post('periode', 'Transaction::periode', ['namespace' => 'App\Controllers\Admin\Transaction']);
     $routes->post('detail', 'Transaction::detailTransaction', ['namespace' => 'App\Controllers\Admin\Transaction']);
   });
   $routes->group('news', function ($routes) {
@@ -84,11 +84,11 @@ $routes->group('admin', function ($routes) {
     $routes->post('detail', 'News::detail', ['namespace' => 'App\Controllers\Admin\News']);
     $routes->post('store', 'News::store', ['namespace' => 'App\Controllers\Admin\News']);
   });
-  $routes->group('report', function ($routes){
+  $routes->group('report', function ($routes) {
     $routes->get('list', 'Report::index', ['namespace' => 'App\Controllers\Admin\Report']);
-    $routes->get('detailproject','Report::lihat', ['namespace' => 'App\Controllers\Admin\Report']);
+    $routes->get('detailproject', 'Report::lihat', ['namespace' => 'App\Controllers\Admin\Report']);
     $routes->post('detail', 'Report::detail', ['namespace' => 'App\Controllers\Admin\Report']);
-    $routes->post('persentage','Report::persentage', ['namespace' => 'App\Controllers\Admin\Report']);
+    $routes->post('persentage', 'Report::persentage', ['namespace' => 'App\Controllers\Admin\Report']);
   });
 });
 

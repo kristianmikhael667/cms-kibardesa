@@ -26,7 +26,7 @@ class Login extends BaseController
       "username" => $username,
       "password" => $password
     ];
-    $result = curlHelper('https://dev.kibardesa.id/user-service/admin-login', 'POST', $fields);
+    $result = curlHelper('https://jalindesaapi.connexist.com/user-service/admin-login', 'POST', $fields);
     $data["success"] = false;
     if ($result->status === "ok") {
       $data['token']            = $result->token;
