@@ -10,7 +10,7 @@ class User extends BaseController
     public function index()
     {
         $data = [];
-        $result = curlHelper('https://jalindesaapi.connexist.com/user-service/users', 'GET');
+        $result = curlHelper('https://jalindesaapi.connexist.com/user-service/users?p=1', 'GET');
         $data["users"] = $result;
         return view('user/index', $data);
     }

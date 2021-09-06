@@ -26,6 +26,41 @@
                         <div class="col-12">
                             <div class="card" style="border-radius: 20px;">
                                 <div class="card-body">
+                                    <form action="<?= base_url('/admin/transaction/paid') ?>" method="post">
+
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Start Date</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar"></i></span>
+                                                        </div>
+                                                        <input value="<?= $start ?>" autocomplete="off" placeholder="Input End Date" type="text" class="form-control pull-right" name="start_date" id="start_date">
+                                                        <input type="hidden" id="value_start_date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>End Date</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar"></i></span>
+                                                        </div>
+                                                        <input value="<?= $end ?>" autocomplete="off" placeholder="Input End Date" type="text" class="form-control pull-right" name="end_date" id="end_date">
+                                                        <input type="hidden" id="value_end_date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div style="margin-top: 31px;">
+                                                    <button id="btn_apply_periode" type="submit" class="btn btn-primary">Apply</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
                                     <table id="product-lists" class="table table-bordered table-striped">
                                         <thead>
                                             <tr>
@@ -44,7 +79,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <?php foreach ($results->report as $trx) : ?>
+                                            <?php foreach ($results as $trx) : ?>
                                                 <tr>
                                                     <td><?= $trx->trx_id ?></td>
                                                     <td><?= $trx->trx_no ?></td>

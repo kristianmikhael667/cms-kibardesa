@@ -1,0 +1,429 @@
+CRITICAL - 2021-09-06 01:33:33 --> Undefined property: stdClass::$data
+#0 D:\xampp\htdocs\cms-kibardesa\app\Views\user\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 165, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cms-kibardesa\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 01:36:31 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report-detail?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report-detail?status=PA (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(49): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 01:36:50 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report-detail?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report-detail?status=PA (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(49): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 01:37:15 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report-detail?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report-detail?status=PA (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(49): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 01:50:50 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report-detail?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report-detail?status=PA (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(47): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 02:00:23 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(53): count(Object(stdClass))
+#2 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-06 02:00:40 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(53): count(Object(stdClass))
+#2 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-06 02:00:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(53): count(Object(stdClass))
+#2 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-06 02:01:08 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(53): count(Object(stdClass))
+#2 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-06 02:01:58 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\xampp\\htdocs...', 66, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(66): count(Object(stdClass))
+#2 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-06 02:02:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\xampp\\htdocs...', 66, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(66): count(Object(stdClass))
+#2 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-06 02:03:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\xampp\\htdocs...', 66, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(66): count(Object(stdClass))
+#2 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-06 02:36:34 --> Undefined property: stdClass::$total_transaksi
+#0 D:\xampp\htdocs\cms-kibardesa\app\Views\dashboard\index.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 99, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cms-kibardesa\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Dashboard\Dashboard.php(22): view('dashboard/index', Array)
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 02:43:36 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=%5Bobject%20Object%5D&endate=%5Bobject%20Object%5D` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(48): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 03:11:01 --> Trying to get property 'report' of non-object
+#0 D:\xampp\htdocs\cms-kibardesa\app\Views\transaction\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 43, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cms-kibardesa\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(19): view('transaction/ind...', Array)
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 03:11:14 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(48): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 03:11:41 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(48): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 03:12:11 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(48): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 03:14:08 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(48): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 03:32:43 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(48): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 03:55:59 --> Trying to get property 'report' of non-object
+#0 D:\xampp\htdocs\cms-kibardesa\app\Views\transaction\paid.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 78, Array)
+#1 D:\xampp\htdocs\cms-kibardesa\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cms-kibardesa\system\Common.php(1087): CodeIgniter\View\View->render('transaction/pai...', Array, true)
+#3 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(52): view('transaction/pai...', Array)
+#4 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->paid()
+#5 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 04:03:48 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(72): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 04:04:09 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(72): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 04:04:45 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(72): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2021-09-06 04:04:54 --> Server error: `GET https://jalindesaapi.connexist.com/ppob-service/report?status=PAID&stdate=undefined&endate=undefined` resulted in a `500 Internal Server Error` response:
+{
+    "status": "error",
+    "message": "Server error: `GET http://kibar-ppob_app_1/ppob-service/report?status=PAID&stda (truncated...)
+
+#0 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Promise\Promise->wait()
+#10 D:\xampp\htdocs\cms-kibardesa\vendor\guzzlehttp\guzzle\src\ClientTrait.php(44): GuzzleHttp\Client->request('GET', 'https://jalinde...', Array)
+#11 D:\xampp\htdocs\cms-kibardesa\app\Controllers\Admin\Transaction\Transaction.php(72): GuzzleHttp\Client->get('https://jalinde...', Array)
+#12 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#13 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#14 D:\xampp\htdocs\cms-kibardesa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\xampp\htdocs\cms-kibardesa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 D:\xampp\htdocs\cms-kibardesa\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#17 {main}

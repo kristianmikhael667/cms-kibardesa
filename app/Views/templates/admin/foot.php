@@ -768,14 +768,20 @@
     $.widget.bridge('uibutton', $.ui.button);
     $(function() {
         $("#start_date").datetimepicker({
-            format: 'Y/m/d H:i:s',
-            todayBtn: false,
+            startDate: new Date(),
             autoHide: true,
-            todayHighlight: true
+            zIndex: 2048,
+            todayHighlight: true,
+            todayBtn: false,
+            format: 'Y-m-d'
         });
         $("#end_date").datetimepicker({
-            format: 'Y/m/d H:i:s',
-            todayBtn: false
+            startDate: new Date(),
+            autoHide: true,
+            zIndex: 2048,
+            todayHighlight: true,
+            todayBtn: false,
+            format: 'Y-m-d'
 
         });
     })
@@ -793,9 +799,13 @@
         data: fd,
         success: function(data) {
             let result = JSON.parse(data)
+            console.log(data);
 
-            $("#income_per_hari").text(result.total_amount)
-            $("#total_transaction").text(result.total_transaction)
+            $("#tanggaltransaksi").text(result.tanggal)
+            $("#jumlahtransaksi").text(result.jumlah_transaksi)
+            $("#totaltransaksi").text(result.total_transaksi.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+            $("#totalbiaya").text(result.total_biaya.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+            $("#totalkeuntungan").text(result.total_keuntungan.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
             $("#btn_apply_periode").text("APPLY")
         },
         error: function(data) {
@@ -818,8 +828,12 @@
             data: fd,
             success: function(data) {
                 let result = JSON.parse(data)
-                $("#income_per_hari").text(result.total_amount)
-                $("#total_transaction").text(result.total_transaction)
+                console.log(data);
+                $("#tanggaltransaksi").text(result.tanggal)
+                $("#jumlahtransaksi").text(result.jumlah_transaksi)
+                $("#totaltransaksi").text(result.total_transaksi.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+                $("#totalbiaya").text(result.total_biaya.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+                $("#totalkeuntungan").text(result.total_keuntungan.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
                 $("#btn_apply_periode").text("APPLY")
             },
             error: function(data) {

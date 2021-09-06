@@ -153,22 +153,23 @@
                   <table id="product-lists" class="table table-bordered table-striped">
                     <thead>
                       <tr>
-                        <th>UID</th>
+                        <th>No</th>
                         <th>Full Name</th>
                         <th>Username</th>
-                        <th>NRA</th>
-                        <th>YNCI</th>
+                        <th>Email</th>
+                        <th>Phone</th>
                         <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <?php foreach ($users->data as $user) : ?>
+                      <?php $no = 1;
+                      foreach ($users->data as $user) : ?>
                         <tr>
-                          <td><?= $user->uid ?></td>
+                          <td><?= $no++ ?></td>
                           <td><?= $user->full_name ?></td>
                           <td><?= $user->username ?></td>
-                          <td><?= $user->nra ?></td>
-                          <td><?= $user->ynci ?></td>
+                          <td><?= $user->email ?></td>
+                          <td><?= $user->phone ?></td>
                           <td width="125">
                             <button onclick="detailUser('<?= $user->uid ?>')" type="button" class="btn btn-primary btn-sm">
                               <i class="fas fa-bars"></i>

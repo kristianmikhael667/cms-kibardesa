@@ -33,7 +33,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar"></i></span>
                   </div>
-                  <input type="text" class="form-control pull-right" id="start_date" value="<?php echo date("Y/m/01"); ?>">
+                  <input placeholder="Input End Date" type="text" class="form-control pull-right" id="start_date">
                   <input type="hidden" id="value_start_date">
                 </div>
               </div>
@@ -45,7 +45,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar"></i></span>
                   </div>
-                  <input type="text" class="form-control pull-right" id="end_date" value="<?php echo date("Y/m/d"); ?>">
+                  <input placeholder="Input End Date" type="text" class="form-control pull-right" id="end_date">
                   <input type="hidden" id="value_end_date">
                 </div>
               </div>
@@ -67,13 +67,13 @@
           background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
           ">
                 <div class="inner">
-                  <h3>Rp <span id="income_per_hari"></span></h3>
-                  <p>Total Omset</p>
+                  <h5><span id="tanggaltransaksi"></span></h5>
+                  <p>Date Now</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-cash"></i>
+                  <i class="ion ion-ios-calendar"></i>
                 </div>
-                <a href="<?= base_url('admin/transaction/list') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="<?= base_url('admin/transaction/paid') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
 
@@ -82,28 +82,53 @@
 background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
 ">
                 <div class="inner">
-                  <h3>Total <span id="total_transaction"></span></h3>
+                  <h5>Total <span id="jumlahtransaksi"></span></h5>
                   <p>Jumlah Transaksi</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-cash"></i>
+                  <i class="ion ion-ios-pulse"></i>
                 </div>
-                <a href="<?= base_url('admin/transaction/list') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="<?= base_url('admin/transaction/paid') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
-
 
             <div class="col-lg-3 col-6">
               <div class="small-box bg-danger" style="background-color: #f876de;
 background-image: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);">
                 <div class="inner">
-                  <h3>Total </h3>
-                  <p>All Users</p>
+                  <h5>Rp <span id="totaltransaksi"></span></h5>
+                  <p>Total Transaksi</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-person"></i>
+                  <i class="ion ion-cash"></i>
                 </div>
-                <a href="<?= base_url('admin/users/list') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="<?= base_url('admin/transaction/paid') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="small-box bg-danger" style="background-color: #f876de;
+background-image: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);">
+                <div class="inner">
+                  <h5>Rp <span id="totalbiaya"></span></h5>
+                  <p>Total Biaya</p>
+                </div>
+                <div class="icon">
+                  <i class="ion ion-cash"></i>
+                </div>
+                <a href="<?= base_url('admin/transaction/paid') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="small-box bg-danger" style="background-color: #f876de;
+background-image: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);">
+                <div class="inner">
+                  <h5>Rp <span id="totalkeuntungan"></span></h5>
+                  <p>Total Keuntungan</p>
+                </div>
+                <div class="icon">
+                  <i class="ion ion-cash"></i>
+                </div>
+                <a href="<?= base_url('admin/transaction/paid') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>

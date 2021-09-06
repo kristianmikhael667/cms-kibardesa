@@ -11,10 +11,9 @@ class Dashboard extends BaseController
   {
     // $data = array();
     $data = [];
-    $result = curlHelper('https://jalindesaapi.connexist.com/ppob-service/report-detail?status=PAID', 'GET');
-    // dd($result);
+    $result = curlHelper('https://jalindesaapi.connexist.com/ppob-service/report?status=PAID', 'GET');
     // die();
-    $data["results"] = totalTransaksiPaid();
+    $data["results"] = $result;
 
     // $data["totalProduct"] = totalProduct();
     // $data["totalUser"] = totalUser();

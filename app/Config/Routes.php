@@ -76,6 +76,7 @@ $routes->group('admin', function ($routes) {
   $routes->group('transaction', function ($routes) {
     $routes->get('list', 'Transaction::index', ['namespace' => 'App\Controllers\Admin\Transaction']);
     $routes->get('paid', 'Transaction::paid', ['namespace' => 'App\Controllers\Admin\Transaction']);
+    $routes->post('paid', 'Transaction::paid', ['namespace' => 'App\Controllers\Admin\Transaction']);
     $routes->post('periode', 'Transaction::periode', ['namespace' => 'App\Controllers\Admin\Transaction']);
     $routes->post('detail', 'Transaction::detailTransaction', ['namespace' => 'App\Controllers\Admin\Transaction']);
   });
